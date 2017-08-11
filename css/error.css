@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100, 200, 300,400,500,700);
+
+html, body {width:100%;height:100%;overflow:hidden;margin:0px;padding:0px;font-family:'Roboto',sans-serif;font-size:16px;background: #e6e6e6;}
+.content {width:100%;text-align:center;font-family: 'Roboto', sans-serif;}
+.content {padding-top: 10%;}
+.content div {display: flex; margin: 0 auto;text-align: left;}
+.content div.first_line{font-size: 230px;color: #30a063;text-shadow: 4px 4px 5px #64696f;}
+.content div.first_line span{position: relative;top:-52px;font-size: 22px;font-weight: 100;color: #64696f;}
+.content div.second_line a {display: inline-block;text-decoration: none;color: #333;position: relative;top: -3px;font-size: 16px;font-weight: 400;}
+.content div.second_line a:hover {color: #30a063;cursor: pointer;}

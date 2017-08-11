@@ -1,0 +1,185 @@
+
+.left-block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-block > * {
+    width: 100%;
+}
+
+.left-block p {
+    font-size:19px;
+    font-weight: 500;
+}
+
+.item .invite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+}
+
+.group-info > div {
+    flex: 1;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.admin-info h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.admin-info h3 span {
+    color: #30a063;
+}
+
+.modal-content-row {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.modal-content-row.user-role {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal-content-row.user-role select {
+    width: 200px;
+}
+
+.modal-content-row h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.classes-list {
+    overflow-y: auto;
+    max-height: 20vh;
+    width: 100%;
+}
+
+.class-objects, .class-reports {
+    margin: 10px 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.class-objects p, .class-reports p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.objects-order-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.objects-order-list > div {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.modal-type-2 .button-3 {
+    padding:0;
+}
+
+p.warning {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+td.redact-td > div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+td.redact-td p {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+td.redact-td p:hover {
+    opacity: 0.8;
+}
+
+p.redact-user {
+    color: #30a063;
+    margin-right: 10px;
+}
+
+p.delete-user {
+    color: #d64b4b;
+}
+
+table.tables {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+thead th {
+    border-bottom: 1px solid rgba(179, 179, 179, 0.29) !important;
+}
+
+.tables td[data-user-role="0"] {
+    color: #30a063;
+}
+
+.tables td[data-user-role="1"] {
+    color: #d64b4b;
+    color: #d6794b;
+}
+
+.tables td[data-user-role="2"] {
+    color: #d64b4b;
+}
+
+td.deleted-user > div {
+    display: flex;
+    justify-content: center;
+}
+
+td.deleted-user p {
+    cursor: pointer;
+    color: #30a063;
+}
+
+td.deleted-user p:hover {
+    opacity: 0.7;
+}
+
+td.empty-users {
+    text-align: center;
+}
+
+.class .button.open-reports a {
+    border-radius: 0 0 0 3px;
+}
+
+.class .button.open-object a {
+    border-radius: 0 0 3px 0;
+}
+
+.modal-content-row {
+    justify-content: space-between;
+}

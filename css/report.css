@@ -1,0 +1,101 @@
+.reset-settings {
+    cursor: pointer;
+    font-weight: 500;
+    margin-left:5px;
+}
+
+.sort, .reset-settings:hover {
+    color: rgba(48, 160, 99, 0.6);
+}
+
+.sorted_by, .reset-settings{
+    color: rgba(48, 160, 99, 1);
+}
+
+.chart-period {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.chart-period p {
+    width: 100%;
+}
+
+.chart-period > div {
+    width: 50%;
+}
+
+.chart-period > div input:first-child {
+    width: calc(100% - 30px);
+}
+
+.chart-type-title, .chart-set > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.chart-set > div {
+    justify-content: flex-start;
+}
+
+.chart-fields-setting {
+    width: 100%;
+}
+
+.chart-type-title .styled-select, .chart-set .styled-select{
+    width: 40%;
+}
+
+.chart-set .styled-select {
+    margin-left: 5px;
+}
+
+.chart-type-title .styled-select select,  .chart-set select {
+    width: 100%;
+}
+
+.nav-data .paginator {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-block {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-date {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-block input, .search-block select{
+    height: 25px;
+}
+
+.search-block select{
+    width: 150px;
+}
+
+.search-block .styled-select:before {
+    height: 27px !important;
+}
+
+.search-date > *, .search-objects > *, .search-text-field > * {
+    margin-right: 5px;
+}
+
+table.tables.data-table td:first-child, table.tables.data-table th:first-child {
+    padding-left: 20px;
+}
+
+tr.main-date td {
+    text-align: center;
+}

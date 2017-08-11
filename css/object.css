@@ -1,0 +1,97 @@
+.search-data {
+    display:none;
+    align-items: center;
+}
+
+.search-block input {
+    width: 200px;
+    margin-left: 5px;
+}
+
+.search-block i {
+    margin-left: 5px;
+}
+
+td.remove {
+    width: 7%;
+    color: #64696f;
+}
+
+tr.general-date td {
+    background: rgba(48, 160, 99, 0.2);
+    border-bottom: 1px solid #f3f3f3;
+}
+
+tr.general-date td:nth-child(2) {
+    text-align:center;
+}
+
+.reset-settings, td.removed-td span {
+    cursor: pointer;
+    font-weight: 500;
+    margin-left:5px;
+}
+
+.sort, .reset-settings:hover, td.removed-td span:hover {
+    color: rgba(48, 160, 99, 0.6);
+}
+
+.sorted_by, .reset-settings, td.removed-td span {
+    color: rgba(48, 160, 99, 1);
+}
+
+td.removed-td {
+    text-align: center;
+}
+
+
+
+input.search#num-search {
+  display:none;
+}
+
+.type-of-complex-object {
+    text-align: center;
+}
+
+.object-data-item.one-date-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.object-data-item.one-date-block input {
+    margin-left: 5px;
+}
+
+.object-data-item.one-date-block p {
+    margin: 0;
+}
+
+.complex-object-data-block .date-block-date {
+    width: 100px;
+}
+
+.complex-object-data-block .date-block-time {
+    width: 80px;
+}
+
+div#modal-add-object {
+    min-width: 450px;
+}
+
+.modal-content.complex > div {
+    padding-bottom: 10px;
+}
+
+.modal-content.complex > .add-object-field {
+    padding-bottom: 0;
+}
+
+.add-object-field i {
+    margin: 0;
+}
+
+.redact-data {
+    margin-right: 10px;
+}

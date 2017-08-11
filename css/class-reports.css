@@ -1,0 +1,26 @@
+.modal-content-row.report-period {
+    justify-content: space-between;
+}
+
+.object-for-report {
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+.field-for-report {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.field-for-report .how_to_calc {
+    float: right;
+    width: 35%;
+}
+
+.field-for-report .how_to_calc select {
+    width: 100%;
+}
+
+.modal-content-row.text-field .styled-select {
+    margin-top: 5px;
+}

@@ -1,0 +1,68 @@
+ul#sortable {
+    max-height: 50vh;
+    overflow: auto;
+}
+
+.field-row .bottom {
+
+}
+
+.field-row .bottom {
+    display:none;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.styled-select.form-type select {
+    width:137px;
+    margin-left:10px;
+}
+.styled-select.operations {
+    margin: 0 10px;
+}
+.styled-select.operations select {
+    width: 50px;
+    font-size: 1.5em;
+    text-align:center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.styled-select.num select {
+    width: 172px;
+}
+
+.modal-block-add-class > div {
+    width: 50%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.new_row_value {
+    margin-top: 5px;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding-left: 9%;
+    width: 100%;
+}
+
+.new_row_value label {
+    font-size: 16px;
+    font-weight: 500;
+    width: 18%;
+}
+
+.new_row_value input {
+        width: 65%;
+}
+
+ul#class-change-sortable {
+    max-height: 56vh;
+    overflow-y: auto;
+}
